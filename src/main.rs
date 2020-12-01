@@ -62,7 +62,7 @@ impl Application for GUI {
     }
 
     fn title(&self) -> String {
-        String::from("DEMO")
+        String::from("STOPWATCH")
     }
 
     fn update(&mut self, message: Self::Message) -> Command<Self::Message> {
